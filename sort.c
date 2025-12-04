@@ -17,6 +17,7 @@ void bubbleSort(int arr[], int n) {
 }
 
 int main() {
+    printf(“hello git\n”);
     int a[] = {4, 2};
     int n = sizeof(arr) / sizeof(arr[0]);
     bubbleSort(arr, n);
