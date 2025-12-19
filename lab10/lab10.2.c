@@ -10,6 +10,6 @@ int has_min(struct Parabola p) {
 
 float min(struct Parabola p) {
     float x;
-    x = -p.b / (2 * p.a);
+    x = -p.b / (2.0 * p.a);
     return p.a * x * x + p.b * x + p.c;
 }

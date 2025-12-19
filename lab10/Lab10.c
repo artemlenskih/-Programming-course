@@ -27,7 +27,7 @@ int main() {
         
         for(int i = 0; i < M; i++) {
             if(has_min(p[i])) {
-                int min_i = min(p[i]);
+                float min_i = min(p[i]);
                 if(min_i > max) {
                     max = min_i;
                     prbl = i;
