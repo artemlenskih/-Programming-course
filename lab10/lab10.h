@@ -1,4 +1,3 @@
-#ifndef PARABOLA_H
 #define PARABOLA_H
 
 struct Parabola {
@@ -9,5 +8,3 @@ struct Parabola {
 
 int has_min(struct Parabola p);
 float min(struct Parabola p);
-
-#endif
